@@ -48,7 +48,7 @@ struct dugum *hash() { //hash yapisinin bagli liste alma ve yerlestirme islemini
 
     printf("lutfen ogrenci numaranizi giriniz : ");
     scanf("%d", &eklenecek);
-    printf("lutfen almak istediginiz kitabin adini giriniz: ");
+    printf("Almak istediginiz kitabin adini giriniz: ");
     scanf("%s", &hashKitap);
     kutuphane *temp = start;
     while (temp != NULL) {
